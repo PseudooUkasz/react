@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: purple;
+    height: 100px;
+    color: whitesmoke;
+    /*margin-bottom: 15px; */
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.h1 {
+    width: 20%;
+    float: left;
+    background-color: tomato;
+    margin-top: 0px;
+    height: 1000px;
+    text-align: center;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+}
+.main {
+    max-height: 100%;
+    width: 80%;
+    float: right;
+    height: 100px;
+    margin-top: 0px;
+    background-color: violet;
+}
+.maindiv {
+    background-color:  rgb(110, 182, 211);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+.todolist {
+
+    background-color: rgb(104, 196, 219);
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #7ab47a;
+    box-shadow: 
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        0 20px 0 -5px rgb(182, 96, 96),
+        0 20px 1px -4px rgba(0, 0, 0, 0.15),
+        0 40px 0 -10px rgb(184, 125, 125),
+        0 40px 1px -9px rgba(0, 0, 0, 0.15);
+        padding: 30px;
+    
+}
+input[type=checkbox]{
+    margin-right: 10px;
+}
